@@ -116,6 +116,9 @@ def main():
     weights = torch.tensor([1 - sum(weights), *weights], device=device)
 
     torch.manual_seed(args.seed)
+    # PF- Added two values to display during iterations:
+    print('seed', args.seed)
+    print('starting_timestep', args.starting_timestep)
 
     def cfg_model_fn(x, t):
         n = x.shape[0]
@@ -141,8 +144,10 @@ def main():
         for i in trange(0, n, batch_size):
             cur_batch_size = min(n - i, batch_size)
             outs = run(x[i:i+cur_batch_size], steps)
+            #PF - Modified to accomodate loop over seeds and starting timesteps
             for j, out in enumerate(outs):
-                utils.to_pil_image(out).save(f'out_{i + j:05}.png')
+                utils.to_pil_image(out).save(f'out_{i + j:05}_seed_{args.seed}_st_{args.starting_timestep}.png')
+                # utils.to_pil_image(out).save(f'out_{i + j:05}.png')
 
     try:
         run_all(args.n, args.batch_size)
