@@ -146,7 +146,7 @@ def main():
             outs = run(x[i:i+cur_batch_size], steps)
             #PF - Modified to accomodate loop over seeds and starting timesteps
             for j, out in enumerate(outs):
-                utils.to_pil_image(out).save(f'out_{i + j:05}_seed_{args.seed}_st_{args.starting_timestep}.png')
+                utils.to_pil_image(out).save(f'results/seed_{args.seed}_st_{args.starting_timestep}.png')
                 # utils.to_pil_image(out).save(f'out_{i + j:05}.png')
 
     try:
