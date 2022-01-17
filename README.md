@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/metaphorz/v-diffusion-pytorch/blob/master/Gen_CFG_images512x512.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/metaphorz/v-diffusion-pytorch/blob/master/Gen-CFG-images512x512.ipynb.ipynb)
 
 ## This notebook was forked and edited. The fork was from Katherine Crowson's v-diffusion-pytorch repository. The additions are:
 ## P. Fishwick, 01/17/22
