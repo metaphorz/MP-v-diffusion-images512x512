@@ -1,3 +1,8 @@
+javascript:
+if (location.href.split('github.com').length > 1 {
+  window.open('https://colab.research.google.com/github' +
+  location.href.split('github.com')[1]);
+  
 # v-diffusion-pytorch
 
 v objective diffusion inference code for PyTorch, by Katherine Crowson ([@RiversHaveWings](https://twitter.com/RiversHaveWings)) and Chainbreakers AI ([@jd_pressman](https://twitter.com/jd_pressman)).
