@@ -1,7 +1,4 @@
-javascript:
-if (location.href.split('github.com').length > 1 {
-  window.open('https://colab.research.google.com/github' +
-  location.href.split('github.com')[1]);
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
   
 # v-diffusion-pytorch
 
