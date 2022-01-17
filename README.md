@@ -1,4 +1,13 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/metaphorz/v-diffusion-pytorch/blob/master/Gen-CFG-images512x512.ipynb)
+
+## This notebook was forked and edited. The fork was from Katherine Crowson's v-diffusion-pytorch repository. The additions are:
+## P. Fishwick, 01/17/22
+1. Center installation in Google Drive by mounting it.
+2. First run: the installation - store in Drive
+3. First run: the pretrained model - store in Drive
+4. A loop over a range of skip_timestep (st) and seed values (bottom of notebook) -- this allows you to "batch" run the notebook to create multiple images. There is a --batch_size option in cfg_sample.py and this is NOT used.
+5. A collage option -- makes rectangular collages e.g. 3x3, 6x6, 4x7, 2x4
+6. Storing resulting images in a zip file and then downloading
   
 # v-diffusion-pytorch
 
