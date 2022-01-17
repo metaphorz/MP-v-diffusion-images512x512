@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/metaphorz/v-diffusion-pytorch/Gen-CFG-images512x512.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/metaphorz/v-diffusion-pytorch/blob/master/Gen-CFG-images512x512.ipynb)
   
 # v-diffusion-pytorch
 
