@@ -8,7 +8,7 @@
 5. A collage option -- makes rectangular collages e.g. 3x3, 6x6, 4x7, 2x4
 6. Storing resulting images in a zip file and then downloading
 
-v-diffusion-pytorch includes a CLIP subdirectory, but CLIP is not used in the loss calculation. You are steering the optimization through some key parameters (skip_timestep and seed) and an initial image. No text prompt.
+Text prompts not tested but can be used. See the CFG Sampling below
 
 This notebook creates a "multiparam-v-diffusion-pytorch" directory within Google Drive.
   
