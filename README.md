@@ -15,7 +15,7 @@ This notebook creates a "multiparam-v-diffusion-pytorch" directory within Google
 # Versions
 1.0 Initial release with items 1-6 above\
 1.01 a. Added check for # images for collage and collage image border size option\
-     b. added some extra information in README.md\
+     b. added some extra information in README.md
   
 # v-diffusion-pytorch
 
