@@ -13,9 +13,9 @@ Text prompts not tested but can be used. See the CFG Sampling below
 This notebook creates a "multiparam-v-diffusion-pytorch" directory within Google Drive.
 
 # Versions
-1.0 Initial release with items 1-6 above
-1.01 a. Added check for # images for collage and collage image border size option
-     b. added some extra information in README.md
+1.0 Initial release with items 1-6 above\
+1.01 a. Added check for # images for collage and collage image border size option\
+     b. added some extra information in README.md\
   
 # v-diffusion-pytorch
 
